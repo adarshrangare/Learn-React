@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    /* margin: auto; */
+    width: 100vw;
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 3rem;
+}
+
+.container{
+    margin: auto;
+    min-width: 200px ;
+    width: 400px;
+    max-width: 60vw;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+    border-radius: 10px;
+}
+label{
+    margin-left: -5px;
+    color: rgb(92, 92, 92);
+    font-size: .8rem;
+    font-weight: 400;
+}
+input{
+    width: 100%;
+    height: 2rem;
+    padding: .5rem;
+    border: 1px solid rgb(215, 215, 215);
+    border-radius: 5px ;
+}
+input:active{
+    outline: 1px solid coral;
+    border: 1px solid coral;
+    box-shadow: 0px 0px 5px coral;
+}
+input:focus{
+    outline: 1px solid coral;
+    border:1px solid coral;
+    box-shadow: 0px 0px 5px coral;
+}
+button{
+    padding: 10px 20px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: coral;
+}
+
+button:hover{
+    background-color: rgb(233, 118, 76);
+    color: rgb(241, 241, 241);
+}
+
+button:focus{
+    outline: none;
+    border: none;
+}
+
+.register{
+    font-size: .7rem;
+    text-align: center;
+    font-size: 200;
+    color: grey;
+}
+.registration{
+    cursor: pointer;
+    color: black;
+    font-weight: 500;
+    transition: 0.2s;
+}
+.registration:hover{
+    color: coral;
+}
