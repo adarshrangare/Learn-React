@@ -1,8 +1,20 @@
-import React from 'react'
+
+// CleanUp Function
+
+import CleanUpFunction from "./components/CleanUpFunction"
+
+// Use Effect  : used for Side Effects
+
+// 
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <h1>Clean Up Function</h1>
+
+      <CleanUpFunction/>
+
+    </div>
   )
 }
 
