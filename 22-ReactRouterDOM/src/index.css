@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navActive {
+    background-color: rgb(90, 186, 255);
+    font-weight: 600;
+    /* padding: .5rem; */
+}
+
+a {
+  text-decoration: none;
+  padding: 1rem;
+  border-radius: 0px 0px 10px 10px;
+  /* background-color: #fff; */
+}
+a:active{
+    color: #c296b9;
+}
+
+ul{
+    display: flex;
+}
+
+ul li{
+    margin: 1rem auto;
+    list-style: none;
+    
+}
+
+.postCard {
+  background-color: #c296b9;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+nav {
+  background-color: rgb(211, 248, 240);
+  display: flex;
+  padding: 2rem auto;
+}

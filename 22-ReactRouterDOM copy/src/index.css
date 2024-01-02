@@ -1,0 +1,10 @@
+.navActive{
+    color:red;
+}
+
+.postCard{
+    background-color: #c5c5c5;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
