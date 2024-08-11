@@ -19,18 +19,16 @@ function reducer(state, action) {
   console.log("inside reducer");
   console.log(action);
 
-  if(action.type === "ADD_TODO"){
-    
+  if (action.type === "ADD_TODO") {
     const newTodo = {
-        id : crypto.randomUUID(),
-        title : action.payload.title,
-        done : false,
-    }
+      id: crypto.randomUUID(),
+      title: action.payload.title,
+      done: false,
+    };
 
-    const newState = [...state,newTodo];
+    const newState = [...state, newTodo];
 
     return newState;
-
   }
 
   if (action.type === "DELETE_TODO") {

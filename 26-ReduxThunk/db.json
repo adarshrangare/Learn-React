@@ -1,0 +1,19 @@
+{
+  "todos": [
+    {
+      "id": "1",
+      "title": "Buy milk",
+      "completed": true
+    },
+    {
+      "id": "2",
+      "title": "Buy Facewash",
+      "completed": true
+    },
+    {
+      "id": "OpZeZz283oZU_PmlVljY2",
+      "title": "Buy Vegies",
+      "completed": false
+    }
+  ]
+}
